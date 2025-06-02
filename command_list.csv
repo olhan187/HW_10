@@ -1,0 +1,58 @@
+    1  OLHAN187
+    2  cd reposits github
+    3  clear
+    4  cd REPOSITS GITHUB
+    5  CD.REPOSITS GITHUB
+    6  cd Desktop/my-git-folder
+    7  cd ~/Desktop/my-git-folder
+    8  cd ~/Desktop/my-git-folder
+    9  clear
+   10  mkdir ~/Desktop/my-git-folder1
+   11  cd /c/Users/olhan/Desktop
+   12  ls /c/Users
+   13  cd /c/Users/olhan/Desktop
+   14  ls /c/Users/olhan
+   15  cd /c/Users/olhan/OneDrive/Desktop
+   16  mkdir my-git-folder
+   17  cd my-git-folder
+   18  -c && rm ~/.bash_history
+   19  git config --global user.name "olhan187"
+   20  git config --global user.email "olhan187@gmail.com"
+   21  git config --global --list
+   22  git clone https://github.com/olhan187/HW_10.git
+   23  touch text_ignore.txt
+   24  echo text_ignore.txt >> .gitignore
+   25  git status
+   26  cd your-repo-name
+   27  clear
+   28  git clone https://github.com/olhan187/HW_10.git
+   29  cd <repository_folder_name>
+   30  clear
+   31  touch text_ignore.txt
+   32  echo text_ignore.txt >> .gitignore
+   33  git status
+   34  git add .
+   35  ls
+   36  git clone https://github.com/olhan187/HW_10.git
+   37  cd HW_10
+   38  git status
+   39  touch text_ignore.txt
+   40  echo text_ignore.txt >> .gitignore
+   41  git add .
+   42  git commit -m "Added .gitignore and created text_ignore.txt"
+   43  git log -1
+   44  touch main_test.txt
+   45  git add .
+   46  git commit -m "Added empty file main_test.txt"
+   47  git checkout -b develop
+   48  touch develop_test.txt
+   49  git add .
+   50  git commit -m "Created develop_test.txt file"
+   51  echo "just a small change" >> develop_test.txt
+   52  git status
+   53  git add .
+   54  git commit -m "Updated develop_test.txt with a small change"
+   55  git checkout main
+   56  git merge develop
+   57  git log --oneline --graph --decorate --all
+   58  history > command_list.csv
